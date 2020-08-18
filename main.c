@@ -292,7 +292,7 @@ int main(const int argc, char **argv) {
     }
 
 
-    speed_test_proto_config->download_max = 100000000; // 100Mb
+    speed_test_proto_config->download_max = 120000000; // 120Mb - this HAS TO MATCH the MAX of what is on the client side
     speed_test_proto_config->upload_max   = 100000000; // 100Mb
     speed_test_proto_config->idle_timeout = 10; // 10 sec
     speed_test_proto_config->backlog = 512;
